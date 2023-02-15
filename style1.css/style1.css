@@ -1,0 +1,144 @@
+.ficha{
+    border: 1px solid ;
+}
+.logo{
+    width: 50% ;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+ }
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: left;
+    justify-content: center;
+}
+.nav{
+    margin-left: auto;
+    justify-content: center;
+}
+.nave{
+    margin: 10px;
+    background-color: rgb(17, 85, 105);
+    color: whitesmoke;
+    text-decoration: none;
+    height: min-content;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -2px -1px 4px 5px rgb(0,0,0);
+}
+.nave:hover{
+    background-color: rgb(42, 42, 117);
+}
+.act{
+    background-color: rgb(16, 129, 72);
+}
+.event{
+    width: 100%;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.subtit{
+    text-align: center;
+    font-size: 24px;
+}
+.cohort{
+    text-align: end;
+    font-size: 30px;
+    
+}
+.info{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;  
+}
+.info:hover {
+    background: lightgrey;
+ }
+.info:active {
+    background: #ffffff;
+    color: black;;
+ }
+.inf{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    border: 1px solid ;
+}
+.search{
+    text-align: right;
+}
+.footer > div {
+    background-color: #747474;   
+}
+.tituloP{
+    padding: 25px;
+    display: flex;
+    justify-content:space-between;
+}
+.tablas{
+    display: flex;
+    justify-content: center;
+}
+.ant{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    text-shadow: 40px 0px 3px #6d6d6d;
+}
+.ant:hover{
+    text-shadow: 20px 0px 3px #6d6d6d;
+}
+.pos{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    text-shadow: -40px 0px 3px #6d6d6d;
+}
+.pos:hover{
+    text-shadow: -20px 0px 3px #6d6d6d;
+}
+.ant:active, .pos:active{
+    text-shadow: -20px 0px 3px #ffffff;
+}
+form{
+
+    border: 1px solid ;
+ padding: 10px;
+    justify-content: center;
+    }
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+.formu{
+    display: flex;
+    justify-content: center;
+}
+td{
+    height: 30px;
+}
+.moreT, .moreS{
+    text-align: center;
+    align-self: center;
+}
+.moreC{
+    border: 1px solid;
+    width: 50%;
+    display: flex;
+    border-radius: 15px;
+    
+}
+.conta{
+    display: flex;
+    justify-content: center;
+}
